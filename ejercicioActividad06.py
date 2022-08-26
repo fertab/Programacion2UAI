@@ -25,7 +25,7 @@ print("El número introducido más 1 es: ", num + 1)
 print(input("Ingrese su nombre:"))
 
 # 4- Dado un valor que se ingresa por teclado, mostrar el 25% de ese valor en pantalla
-print (input("Ingrese un numero: ") * 0.25)
+print (int(input("Ingrese un numero: ")) * 0.25)
 
 # 5- Ingresar por teclado un valor entero, para asignarlo a una variable llamada temperatura. Luego ingresar una cadena para
 # asignarla a una variable llamada localidad. mostrar en pantalla la leyenda en la zona .... Tenemos una temperatura de ..... (usar
