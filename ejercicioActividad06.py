@@ -145,3 +145,11 @@ else:
 
 ################################
 
+
+# 11- Un estudio contable, necesita automatizar un proceso de gran importancia. Se debe discriminar los cheques que tiene tienen un importe superior a los 100.000 pesos. Para ello, debemos realizar un programa que me permita ingresar el importe del cheque. Al terminar la carga, el sistema debe informar si el importe es mayor a 100.000
+cheque = float(input("ingrese el importe del cheque"))
+if cheque > 100000:
+    print("el importe es mayor a 100.000")
+else:
+    print("el importe es inferior a 100.000")
+
