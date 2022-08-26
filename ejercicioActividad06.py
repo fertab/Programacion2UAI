@@ -89,4 +89,41 @@ lado1 = int(input("Introduce el primer lado: "))
 lado2 = int(input("Introduce el segundo lado: "))
 print("La superficie del cuadrado es: ", lado1 * lado2)
 
+# Ejercicio 8
+
+# Implementar un algoritmo en Python que, dados dos valores de las acciones de la empresa Techint del día 23-8-2022 y otra del día 22-8-2022 permita informar si las acciones están el alza.
+
+valor1 = 0
+valor2 = 0
+
+# Código
+
+valor1 = int(input("Introduce el valor de las acciones del día 23-8-2022: "))
+valor2 = int(input("Introduce el valor de las acciones del día 22-8-2022: "))
+if valor1 > valor2:
+    print("Las acciones están en alza")
+else:
+    print("Las acciones no están en alza")
+
+################################
+
+# Ejercicio 9
+
+# Tomando el mismo caso del ejercicio anterior, cambiar el código para ingresar por teclado el valor de dos acciones de días distintos. Tomando dicha información informar si conviene comprar, vender o no reacciona.
+
+valor1 = 0
+valor2 = 0
+
+# Código
+
+valor1 = int(input("Introduce el valor de las acciones del día 23-8-2022: "))
+valor2 = int(input("Introduce el valor de las acciones del día 22-8-2022: "))
+if valor1 > valor2:
+    print("Las acciones están en alza")
+    print("Convendría comprar")
+elif valor1 < valor2:
+    print("Las acciones no están en alza")
+    print("Convendría vender")
+else:
+    print("Las acciones no reaccionan")
 
