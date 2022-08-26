@@ -1,3 +1,5 @@
+# Ejercicio 1
+
 # Crear 2 variables enteras y mostrar la suma de ambas en pantalla
 
 num1 = 0
@@ -9,6 +11,9 @@ num2 = int(input("Introduce el segundo número: "))
 print("La suma de los dos números es: ", num1 + num2)
 
 ################################
+
+
+# Ejercicio 2
 
 # Dada una variable entera, sumarle 1 y mostrar el resultado en pantalla
 
@@ -72,3 +77,19 @@ localidad = ""
 temperatura = int(input("Introduce la temperatura: "))
 localidad = input("Introduce la localidad: ")
 print("La temperatura en la localidad de %s es de %d grados" % (localidad, temperatura))
+
+# Ejercicio 6
+
+
+# Ejercicio 6
+
+lado1 = 0
+lado2 = 0
+
+# Código
+
+lado1 = int(input("Introduce el primer lado: "))
+lado2 = int(input("Introduce el segundo lado: "))
+print("La superficie del cuadrado es: ", lado1 * lado2)
+
+
