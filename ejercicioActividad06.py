@@ -126,4 +126,22 @@ elif valor1 < valor2:
     print("Convendría vender")
 else:
     print("Las acciones no reaccionan")
+    
+################################
+    
+# Ejercicio 10
+
+#  Informar si dada una edad, la persona se encuentra entre los 18 ylos 36 años.
+
+edad = 0
+
+# Código
+
+edad = int(input("Introduce la edad: "))
+if edad >= 18 and edad <= 36:
+    print("La persona se encuentra entre los 18 y los 36 años")
+else:
+    print("La persona no se encuentra entre los 18 y los 36 años")
+
+################################
 
