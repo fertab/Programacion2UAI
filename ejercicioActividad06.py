@@ -80,9 +80,6 @@ print("La temperatura en la localidad de %s es de %d grados" % (localidad, tempe
 
 # Ejercicio 6
 
-
-# Ejercicio 6
-
 lado1 = 0
 lado2 = 0
 
