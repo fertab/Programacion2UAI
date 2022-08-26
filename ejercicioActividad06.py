@@ -58,3 +58,17 @@ print (input("Ingrese un numero: ") * 0.25)
 # El PIB de un año se calcula como las producciones del año valoradas a precios del año:
 # PIB(2020) = 21+ 20 + 10 * 10 = El resultado debería ser 520 PIB(2021) = 20*22+ 9*12=548
 # PIB(2022) = 22* 21+10*11=572
+
+
+
+
+
+# Ejercicio 5
+
+temperatura = 0
+localidad = ""
+
+# Código
+temperatura = int(input("Introduce la temperatura: "))
+localidad = input("Introduce la localidad: ")
+print("La temperatura en la localidad de", localidad, "es de", temperatura, "grados")
