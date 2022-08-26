@@ -71,4 +71,4 @@ localidad = ""
 # Código
 temperatura = int(input("Introduce la temperatura: "))
 localidad = input("Introduce la localidad: ")
-print("La temperatura en la localidad de", localidad, "es de", temperatura, "grados")
+print("La temperatura en la localidad de %s es de %d grados" % (localidad, temperatura))
