@@ -153,3 +153,19 @@ if cheque > 100000:
 else:
     print("el importe es inferior a 100.000")
 
+    
+# Ejercicio 12
+
+# - Crear un programa que dado un valor entero que se ingresa por teclado, informe si el 40% del valor ingresado se encuentra dentro del rango de 10 y 42.
+
+valor = 0
+
+# Código
+
+valor = int(input("Introduce un valor: "))
+if valor * 0.4 >= 10 and valor * 0.4 <= 42:
+    print("El 40% del valor ingresado se encuentra dentro del rango de 10 y 42")
+else:
+    print("El 40% del valor ingresado no se encuentra dentro del rango de 10 y 42")
+
+################################
